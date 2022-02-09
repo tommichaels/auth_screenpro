@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: kBackgroundColor,
         textTheme: const TextTheme(
-          headline4: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+          headline4:
+              TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           button: TextStyle(color: kPrimaryColor),
           headline3:
               TextStyle(color: Colors.white, fontWeight: FontWeight.normal),
@@ -84,8 +85,8 @@ class WelcomeScreen extends StatelessWidget {
                     },
                     child: Container(
                       margin: const EdgeInsets.only(bottom: 25),
-                      padding:
-                          const EdgeInsets.symmetric(horizontal: 26, vertical: 16),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 26, vertical: 16),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(25),
                         color: kPrimaryColor,
